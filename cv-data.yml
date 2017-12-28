@@ -1,0 +1,87 @@
+---
+address:
+  street: 417 Comer, 61 US-9W
+  city: Palisades
+  state: NY 10964
+  email: gloege@ldeo.columbia.edu
+
+contact:
+  name: Lucas J Gloege
+  title: PhD Candiate
+  department: Department of Earth and Environmental Sciences
+  institution: Columbia University / Lamont Doherty Earth Observatory
+  postal-address: 417 Comer, 61 Route 9W--PO Box 1000, Palisades, NY 10964-8000
+  email: gloege@ldeo.columbia.edu
+  website: https://lgloege.github.io
+
+education:
+  - year: 2014 - now
+    university: Columbia University
+    program: Ph.D. Earth and Environmental Science
+    city: New York, NY
+  - year: 2014 - 2017
+    university: University of Wisconsin
+    program: M.S. Atmospheric and Oceanic Sciences
+    city: Madison, WI
+  - year: 2012 - 2014
+    university: University of Minnesota
+    program: M.S. Water Resources Sciences
+    city: Duluth, MN
+  - year: 2007 - 2012
+    university: University of Minnesota
+    program: B.S. Mathematics, B.S. Physics
+    city: Duluth, MN
+
+presentations:
+  - date: August 2017
+    location: Interlaken, Switzerland
+    conference: 10th International Carbon Dioxide Conference
+    title: Constraining the Potential Influence of the Ocean Biological Pump on Atmospheric pCO2
+    type: poster
+  - date: May 2017
+    location: Detroit, MI
+    conference: 60th Annual International Association Great Lakes Research conference
+    title: Fate of Tributary Loads to Lake Michigan
+    type: Oral
+  - date: April 2017
+    location: Madison, WI
+    conference: 2017 Climate Change Symposium / Reid Bryson Poster Competiation
+    title: Fate of Tributary Loads to Lake Michigan
+    type: Poster
+    award: Reid Bryson scholarship recipient
+  - date: June 2016
+    location: Hong Kong, China
+    conference: 1st Gordon Research Conference on Ocean Biogeochemistry
+    title: Parameterizing Carbon Export Below the Euphotic Zone
+    type: Poster
+    award: Acknowledged for excellent student poster presentation
+  - date: February 2016
+    location: New Orleans, LA
+    conference: Ocean Science Meeting 2016
+    title: A Global Evaluation of Model Parameterizations for Carbon Export and Remineralization
+    type: Poster
+  - date: June 2013
+    location: Purdue, IN
+    conference: 56th Annual International Association Great Lakes Research conference
+    title: Modeling Near-Inertial Waves in Lake Superior
+    type: Oral
+
+development:
+  - year: January 2018
+    program: 2nd annual Data Science Bootcamp
+    location: Columbia University
+
+teaching:
+  - year: Spring 2018
+    type: Teaching assistant
+    university: Columbia University
+    department: Earth and Environmental Science Department
+  - year: Spring 2016
+    type: Teaching assistant
+    university: University of Wisconsin
+    department: AOS department
+  - year: 2009 - 2014
+    type: Teaching assistant
+    university: University of Minnesota
+    department: Physics department
+---
