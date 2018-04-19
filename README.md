@@ -10,7 +10,7 @@ All CV data is stored in YAML. This allows for templating using pandoc.
 + ```cv.pdf``` = pdf compiled used pdflatex
 + ```makefile``` = makefile to do all the compiling
 
-CV is  up to date as of December 2017
+CV is  up to date as of April 2018
 
 # To do
 

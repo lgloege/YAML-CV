@@ -1,4 +1,6 @@
 ---
+version: April 18, 2018
+
 address:
   street: 417 Comer, 61 US-9W
   city: Palisades
@@ -6,8 +8,8 @@ address:
   email: gloege@ldeo.columbia.edu
 
 contact:
-  name: Lucas J Gloege
-  title: PhD Candiate
+  name: Lucas J. Gloege
+  title: PhD Candidate
   department: Department of Earth and Environmental Sciences
   institution: Columbia University / Lamont Doherty Earth Observatory
   postal-address: 417 Comer, 61 Route 9W--PO Box 1000, Palisades, NY 10964-8000
@@ -23,6 +25,7 @@ education:
     university: University of Wisconsin
     program: M.S. Atmospheric and Oceanic Sciences
     city: Madison, WI
+    award: Heinz Lettau Award for excellent thesis
   - year: 2012 - 2014
     university: University of Minnesota
     program: M.S. Water Resources Sciences
@@ -32,7 +35,18 @@ education:
     program: B.S. Mathematics, B.S. Physics
     city: Duluth, MN
 
+
 presentations:
+  - date: May 2018
+    location: Detroit, Michigan
+    conference: Society for Freshwater Science meeting
+    title: Potential impacts of tributary loads on coastal ecosystem services in Lake Michigan
+    type: Oral
+  - date: February 2018
+    location: Portland, Oregon
+    conference: Ocean Sciences Meeting 2018
+    title: Potential impacts of tributary loads on coastal ecosystem services in Lake Michigan
+    type: Oral
   - date: August 2017
     location: Interlaken, Switzerland
     conference: 10th International Carbon Dioxide Conference

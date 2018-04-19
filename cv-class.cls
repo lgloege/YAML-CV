@@ -10,6 +10,10 @@
 % For bibliography
 \usepackage{bibentry}
 
+% For columns to align top
+%\usepackage{adjustbox}
+% use: \adjustbox{valign=t}{\begin{minipage}[t]{0.2\textwidth} \end{minipage}}%
+
 % Sets margins
 \RequirePackage{geometry}
 \geometry{
@@ -64,11 +68,11 @@
 \newcommand{\twocols}[2]{
 
 \begin{center}
-\begin{minipage}[b]{0.2\textwidth}
+\begin{minipage}[t]{0.2\textwidth}
 \raggedright
 #1
 \end{minipage}%
-\begin{minipage}[b]{0.8\textwidth}
+\begin{minipage}[t]{0.8\textwidth}
 \raggedright
 #2
 \end{minipage}%
@@ -80,16 +84,16 @@
 \newcommand{\threecols}[3]{
 
 \begin{center}
-\begin{minipage}[b]{0.2\textwidth}
+\begin{minipage}[t]{0.2\textwidth}
 \raggedright
 #1
 \end{minipage}%
-\begin{minipage}[b]{0.6\textwidth}
+\begin{minipage}[t]{0.6\textwidth}
 %\centering
 \raggedright
 #2
 \end{minipage}%
-\begin{minipage}[b]{0.2\textwidth}
+\begin{minipage}[t]{0.2\textwidth}
 \raggedleft
 #3
 \end{minipage}

@@ -17,6 +17,7 @@
 
 \usepackage[utf8]{inputenc}
 \usepackage{times}
+\usepackage{etaremune}
 
 \begin{document}
 
@@ -32,7 +33,7 @@
 \section{Education}
 %\datedsubsection{University of Nowhere}{2004--2008}
 $for(education)$
-    \threecols{$education.year$}{$education.university$, $education.program$}{$education.city$}
+    \threecols{$education.year$}{$education.university$, $education.program$ $if(education.award)$\par $education.award$ $endif$}{$education.city$}
 $endfor$
 
 % *****************************************
@@ -51,11 +52,11 @@ $endfor$
 
   \nobibliography{cv-publications}
   \bibliographystyle{apalike}
-  \begin{enumerate}
+  \begin{etaremune}
     \item \bibentry{gloege2017}
     \item \bibentry{mouw2016b}
     \item \bibentry{mouw2016a}
-  \end{enumerate}
+  \end{etaremune}
 
 % *****************************************
 % Professional Development
@@ -73,5 +74,11 @@ $for(teaching)$
     \twocols{$teaching.year$}{$teaching.type$, $teaching.university$, $teaching.department$}
 $endfor$
 
+% *****************************************
+% Version
+% *****************************************
+\vspace{24pt}
+\raggedright
+Version: $version$
 
 \end{document}
