@@ -12,6 +12,8 @@ and compileable to any format.
 + ```cv.pdf``` = pdf compiled used pdflatex
 + ```makefile``` = makefile to do all the compiling
 
+#### Notes
++ if you include a ":" you need to escapte that character 
 
 #### When and if I have time...
 I would like this to compile to HTML. But I need a nice format and a reason to do so.

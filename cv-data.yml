@@ -1,5 +1,5 @@
 ---
-version: September 15, 2018
+version: November 27, 2019
 
 address:
   street: 417 Comer, 61 US-9W
@@ -17,7 +17,7 @@ contact:
   website: https://lgloege.github.io
 
 education:
-  - year: 2014 - present
+  - year: 2014 - 2020(expected)
     university: Columbia University
     program: Ph.D. Earth and Environmental Science
     city: New York, NY
@@ -37,6 +37,26 @@ education:
 
 
 presentations:
+  - date: August 2019
+    location: La Jolla, CA
+    conference: AGU Chapman understanding carbon climate feedbacks
+    title: Large ensemble testbed to evaluate pCO2 interpolation methods
+    type: poster
+  - date: July 2019
+    location: Boulder, CO
+    conference: Large Ensemble Workshop
+    title: Large ensemble testbed to evaluate pCO2 interpolation methods
+    type: oral
+  - date: June 2019
+    location: New York, NY
+    conference: New York Scientific Data Summit
+    title: Can a neural network trained with a climate model inform the real-world?
+    type: poster
+  - date: December 2018
+    location: Washington, DC
+    conference: AGU Fall meeting / CMIP6 Workshop
+    title: Large ensemble testbed to evaluate pCO2 interpolation methods
+    type: poster
   - date: June 2018
     location: Woods Hole, Massachusetts
     conference: Ocean, Carbn, and Biogeochemistry Summer Workshop
