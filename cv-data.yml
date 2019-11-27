@@ -39,7 +39,7 @@ education:
 presentations:
   - date: August 2019
     location: La Jolla, CA
-    conference: AGU Chapman understanding carbon climate feedbacks
+    conference: AGU Chapman Conference - understanding carbon climate feedbacks
     title: Large ensemble testbed to evaluate pCO2 interpolation methods
     type: poster
   - date: July 2019
@@ -75,34 +75,34 @@ presentations:
   - date: August 2017
     location: Interlaken, Switzerland
     conference: 10th International Carbon Dioxide Conference
-    title: Constraining the Potential Influence of the Ocean Biological Pump on Atmospheric pCO2
+    title: Constraining the potential influence of the ccean biological pump on atmospheric pCO2
     type: poster
   - date: May 2017
     location: Detroit, MI
     conference: 60th Annual International Association Great Lakes Research conference
-    title: Fate of Tributary Loads to Lake Michigan
+    title: Fate of tributary loads to Lake Michigan
     type: oral
   - date: April 2017
     location: Madison, WI
-    conference: 2017 Climate Change Symposium / Reid Bryson Poster Competiation
-    title: Fate of Tributary Loads to Lake Michigan
+    conference: 2017 Climate Change Symposium / Reid Bryson Poster Competition
+    title: Fate of tributary loads to Lake Michigan
     type: poster
     award: Reid Bryson scholarship recipient
   - date: June 2016
     location: Hong Kong, China
     conference: 1st Gordon Research Conference on Ocean Biogeochemistry
-    title: Parameterizing Carbon Export Below the Euphotic Zone
+    title: Parameterizing carbon export below the euphotic zone
     type: poster
     award: Acknowledged for excellent student poster presentation
   - date: February 2016
     location: New Orleans, LA
     conference: Ocean Science Meeting 2016
-    title: A Global Evaluation of Model Parameterizations for Carbon Export and Remineralization
+    title: A global evaluation of model parameterizations for carbon export and remineralization
     type: poster
   - date: June 2013
     location: Purdue, IN
     conference: 56th Annual International Association Great Lakes Research conference
-    title: Modeling Near-Inertial Waves in Lake Superior
+    title: Modeling near-inertial waves in Lake Superior
     type: oral
 
 development:
