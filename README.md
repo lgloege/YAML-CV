@@ -1,4 +1,5 @@
 <h1 align='center'>Yet Another YAML CV</h1>
+<h2 align='center'>Content is YAML / Design is LaTeX</h1>
 
 A CV with the design in LaTeX and the data stored in an easy to read/modify YAML file. 
 
