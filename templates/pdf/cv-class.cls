@@ -68,11 +68,11 @@
 \newcommand{\twocols}[2]{
 
 \begin{center}
-\begin{minipage}[t]{0.2\textwidth}
+\begin{minipage}[t]{0.199\textwidth}
 \raggedright
 #1
 \end{minipage}%
-\begin{minipage}[t]{0.8\textwidth}
+\begin{minipage}[t]{0.801\textwidth}
 \raggedright
 #2
 \end{minipage}%

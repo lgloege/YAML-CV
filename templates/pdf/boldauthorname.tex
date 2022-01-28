@@ -1,0 +1,48 @@
+
+% use boldface for specific author in biblatex bibliography
+% http://tex.stackexchange.com/questions/73136/make-specific-author-bold-using-biblatex
+%
+% usage:
+% \input{boldauthorname}
+% ...
+% \begin{document}
+% \boldname{Doe}{John}{J.}
+% \printbibliography
+% \end{document}
+%
+% deactivate:
+% \boldname{}{}{}
+%
+\def\makenamesetup{%
+  \def\bibnamedelima{~}%
+  \def\bibnamedelimb{ }%
+  \def\bibnamedelimc{ }%
+  \def\bibnamedelimd{ }%
+  \def\bibnamedelimi{ }%
+  \def\bibinitperiod{.}%
+  \def\bibinitdelim{~}%
+  \def\bibinithyphendelim{.-}}
+\newcommand*{\makename}[2]{\begingroup\makenamesetup\xdef#1{#2}\endgroup}
+
+\newcommand*{\boldname}[3]{%
+  \def\lastname{#1}%
+  \def\firstname{#2}%
+  \def\firstinit{#3}}
+\boldname{}{}{}
+
+% Patch new definitions
+\renewcommand{\mkbibnamegiven}[1]{%
+  \makename{\currname}{#1}%
+  \makename{\findname}{\firstname}%
+  \makename{\findinit}{\firstinit}%
+  \ifboolexpr{ test {\ifdefequal{\currname}{\findname}}%
+    or test {\ifdefequal{\currname}{\findinit}} }%
+  {\mkbibbold{#1}}{#1}%
+}
+
+\renewcommand{\mkbibnamefamily}[1]{%
+  \makename{\currname}{#1}%
+  \makename{\findname}{\lastname}%
+  \ifboolexpr{ test {\ifdefequal{\currname}{\findname}} }%
+  {\mkbibbold{#1}}{#1}%
+}

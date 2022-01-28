@@ -1,0 +1,106 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% moderncv - Luke Gloege
+%%
+%% Source: https://www.sharelatex.com/templates/cv-or-resume/moderncv-banking
+%%
+%% Version: May 2017
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \documentclass[10pt,letterpaper,sans]{article}
+% \usepackage{hyperref} % add links
+% \usepackage{enumitem} % control list spacing
+% \setlist{nolistsep} % remove all space in between list items
+% \usepackage{changepage} % adjust margins
+% \usepackage[table]{xcolors}
+% \usepackage{makecell}
+
+\documentclass[11pt]{cv-class}
+
+\usepackage[utf8]{inputenc}
+\usepackage{times}
+\usepackage{etaremune}
+
+\begin{document}
+
+% *****************************************
+% Contact
+% *****************************************
+\name{$contact.name$}
+\begin{center} $contact.title$  / $contact.department$ \end{center}
+\begin{center} 
+    $contact.street$ $contact.city$, $contact.state$ \hspace{5 mm} $contact.email$ \hspace{5 mm} $contact.website$ 
+\end{center}
+
+% *****************************************
+% Educations
+% *****************************************
+\section{Education}
+%\datedsubsection{University of Nowhere}{2004--2008}
+$for(education)$
+    \threecols{$education.year$}{$education.university$, $education.program$ 
+    $if(education.award)$\par \underline{$education.award$} $endif$}{$education.city$}
+$endfor$
+
+% *****************************************
+% Work experience 
+% *****************************************
+\section{Work Experience}
+$for(experience)$
+    \twocols{$experience.year$}{$experience.type$, $experience.university$$if(experience.department)$, $experience.department$ $endif$}
+$endfor$
+
+% *****************************************
+% Technical Skills
+% *****************************************
+\section{Technical Skills}
+$for(technical)$
+    \twocols{$technical.type$}{$technical.values$}
+$endfor$
+
+% *****************************************
+% Professional Development
+% *****************************************
+\section{Professional Development}
+$for(development)$
+    \twocols{$development.year$}{$development.program$, $development.location$}
+$endfor$
+
+
+% *****************************************
+% Publications
+% *****************************************
+\section{Publications}
+  \nobibliography{refs}
+  \bibliographystyle{apalike}
+  \begin{etaremune}
+    \item \bibentry{gloege2021_nat}
+    \item \bibentry{gloege2021_james}
+    \item \bibentry{gloege2020_GBC}
+    \item \bibentry{stamell2020_GMD}
+    \item \bibentry{abell2020_ERL}
+    \item \bibentry{mckinley2020_advances}
+    \item \bibentry{gloege2020_ERL}
+    \item \bibentry{abell2020_NatComm}
+    \item \bibentry{gloege2017_GBC}
+    \item \bibentry{mouw2016_GBC}
+    \item \bibentry{mouw2016_ESSD}
+  \end{etaremune}
+
+% *****************************************
+% Presentatinos
+% *****************************************
+\section{Conference Presentations (selected 10/14)}
+%\datedsubsection{ABC Limited.}{2008--Now}
+$for(presentations)$
+  \twocols{$presentations.date$}{$presentations.conference$, 
+  $presentations.location$ \par $presentations.type$, ``$presentations.title$" 
+  $if(presentations.award)$\par \underline{$presentations.award$} $endif$}
+$endfor$
+
+% *****************************************
+% Version
+% *****************************************
+\vspace{24pt}
+\raggedright
+Version: $version$
+
+\end{document}

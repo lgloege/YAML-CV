@@ -1,20 +1,41 @@
-<h1 align='center'>a YAML CV</h1>
-<h5 align='center'>Last updated: September 2018 </h5>
+<h1 align='center'>Yet Another YAML CV</h1>
 
-All CV data is stored in YAML. This makes the raw data easy to read, quick to change,
-and compileable to any format.
+A CV with the design in LaTeX and the data stored in an easy to read/modify YAML file. 
 
-+ ```cv-data.yml```  = cv in YAML format
++ ```data.md```  = CV data in YAML format
++ ```refs.bib``` = bib file for publications
++ ```Makefile``` = compiles the the CV using pandoc
+
+You should not need to modify the `Makefile`. You will only need to modify `data.md` and `refs.bib`. 
+
+Build the CV:
+```
+make pdf
+```
+
+This will create the `build` directory. Your compiled CV will be stored `/build/pdf/cv.pdf`.
+
+To clean the build directory
+```
+make clean-pdf
+```
+
+## Templates
+This directory contains templates to compile your
+#### PDF templates
 + ```cv-class.cls``` = cv class
 + ```cv-template.tex``` = cv latex template
-+ ```cv-publications.bib``` = bib file for publications
-+ ```cv.tex``` = compiled latex file
-+ ```cv.pdf``` = pdf compiled used pdflatex
-+ ```makefile``` = makefile to do all the compiling
 
-#### Notes
--  if you include a ":" you need to escapte that character 
+## Build
+Thid directory is created when you make the CV.
+It contains all the compiled material to create your CV
 
-#### When and if I have time...
-I would like this to compile to HTML. But I need a nice format and a reason to do so.
-PDF is so much more portable.
++ ```cv-class.cls``` = CV class copied from `/templates` 
++ ```refs.bib``` = bibtex file copied from base directory
++ ```cv.tex``` = compiled LaTeX file
++ ```cv.pdf``` = PDF created using `pdflatex`
+  
+# Notes
+Since input is in YAML, you may have to escape some characters, such as `:`
+
+Currently this only compiles to PDF. additions are include compilation to other formats such as HTML
