@@ -1,2 +1,4 @@
 templates/html
 templates/markdown
+.bash_history
+.viminfo
