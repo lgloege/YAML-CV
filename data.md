@@ -1,5 +1,5 @@
 ---
-version: January 28, 2022
+version: January 30, 2022
 
 contact:
   name: Lucas J. Gloege, Ph.D
@@ -56,11 +56,11 @@ experience:
 
 technical:
   - type: Languages
-    values: Python, Bash, \LaTeX
+    values: Bash, \LaTeX, Python
   - type: Libraries 
-    values: Numpy, Pandas, Xarray, Dask, Scikit Learn, Tensorflow, Keras, XGB, Streamlit
+    values: Dask, Numpy, Pandas, Scikit Learn, Streamlit, Tensorflow/Keras, Xarray, XGB
   - type: Software Dev.  
-    values: Git, Docker
+    values: Docker, Git
 
 development:
   - year: January 2018
